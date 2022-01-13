@@ -13,3 +13,14 @@
     font-size: 1.2em;  
     text-align: center;  
 }
+.page {
+    background: linear-gradient(90deg, hsl(214, 66%, 78%) 0%, #d190df 179.25%);
+}
+
+.text {
+    text-align: center;
+    font-size: 46px;
+    color: red;
+
+}
+
