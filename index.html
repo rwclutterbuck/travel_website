@@ -5,14 +5,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Travel</title>
-  <link rel="stylesheet" href="compiled_style.css" />
+  <link rel="stylesheet" href="style.css" />
   <!-- <link rel="stylesheet" href="grid.css" /> -->
   <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.3.0/dist/flowbite.min.css" />
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
   <!-- <link rel="stylesheet" href="grid.css"> -->
 </head>
 
-<body>
+<body class="page">
   <script src="https://unpkg.com/@themesberg/flowbite@1.3.0/dist/flowbite.bundle.js"></script>
 
   <nav class="px-2 py-2.5 bg-white rounded border-gray-200 sm:px-4 dark:bg-gray-800">
@@ -60,86 +60,143 @@
     </div>
   </nav>
   <main>
-    <div>
-      <h1>
-        Welcome to Japan!
-      </h1>
-      <img
-        src="https://www.titantravel.co.uk/contentlibrary/images/products/asia/japan/tour/essence-of-japan-ttjpn-and-jp1/new-heros/jpn_hero_mount_fuji.jpg"
-        alt="Photo of Japan" />
-    </div>
 
-    <div>
-      <div>
-        <img src="https://worldstrides.com/wp-content/uploads/2015/07/iStock_000057240506_Large.jpg"
-          alt="Japan garden" />
-      </div>
-      <div>
-        <h2>
-          12 Interesting Facts about Japan
-        </h2>
-        <ul>
-          <li>Japan consists of 6,852 islands. The islands were originally attached to the eastern coast of Asia, until
-            tectonic activity caused them to split off, creating the Sea of Japan around 15 million years ago.</li>
-          <li>The Japanese language orders words differently than we do in English. Instead of ordering sentences by
-            subject-verb-object (example: I write words), Japanese uses subject-object-verb (example: I words write).
-          </li>
-          <li>Over a thousand tame sika deer roam the streets of Nara, Japan. Once considered heavenly creatures, the
-            deer are now
-            classified as a national treasure (though some are being culled for destroying plant life), and can be seen
-            bowing to
-            tourists in exchange for crackers that are sold on site.</li>
-          <li>From the 12th century to the demise of feudalism in the 19th century, the samurai were a powerful warrior
-            class in
-            Japan. A samurai essentially had a license to kill, with the authority to strike down any commoner who
-            compromised their
-            honor. Ritual suicide (known as seppuku) was a respected practice for a samurai who brought dishonor to his
-            lord.</li>
-          <li>The bow is an important form of greeting in Japan, and Japanese people work hard to perfect it. The depth
-            of the bow is
-            significant—lower bows indicate more respect.</li>
-          <li>The kimono is a traditional Japanese garment worn by both men and women. It consists of a long robe-like
-            dress that is
-            wrapped around the body, with the left side always covering the right. The obi is the belt that keeps the
-            kimono secure.
-            A single kimono can cost over $10,000.</li>
-          <li>Geisha, known for their elaborate hairstyles and white makeup, have been entertaining in Japan since the
-            18th century.
-            The white powder covers most of the geisha’s face and neck, though unpainted spaces creating a W shape is
-            usually left
-            on the neck, which is considered alluring.</li>
-          <li>Traditional Japanese rooms are tiled with Tatami, or mats made with rice straw. A mat’s length is always
-            twice its
-            width, and its size is standardized depending on the region. For that reason, room size is often indicated
-            by the number
-            of mats needed to cover the space.</li>
-          <li>Japan is home to the Japanese macaque, or snow monkey, which lives in colder climates than other primates.
-            The Nagano
-            Prefecture is known for its macaques, who bathe in hot springs in the winter.</li>
-          <li>The world’s largest seafood market is the Tsukiji fish market in Tokyo. The market employs over 60,000
-            people and opens
-            at 3:00 am most mornings, with its famous wholesale tuna auctions beginning at five.</li>
-          <li>Japan will be hosting its second summer Olympics, and its fourth overall, in Tokyo in 2020. The motto for
-            the Games is
-            “Discover Tokyo,” and the mascot—chosen by Japanese schoolchildren—is a blue and white superhero who has the
-            power to
-            teleport.</li>
-          <li>Japan is famous for its immaculate gardens, which are meticulously planned and maintained and are
-            considered a high art.
-            “Borrowed scenery” is an important element in garden design; it means the garden’s landscape includes
-            elements from
-            outside its boundaries, such as mountains, to form a backdrop.</li>
-        </ul>
-      </div>
-    </div>
-
+    <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+      <div class="container">
+        <h1 class="text"> Welcome to Japan!!!</h1>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10">
+              <img
+                src="https://www.titantravel.co.uk/contentlibrary/images/products/asia/japan/tour/essence-of-japan-ttjpn-and-jp1/new-heros/jpn_hero_mount_fuji.jpg"
+                alt="Garden of Japan" class="w-full" />
+              <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                <h3>
+                  <a href="javascript:void(0)" class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                         text-blue-600">
+                    12 Interesting Facts about Japan
+                  </a>
+                </h3>
+                <p class="text-base text-body-color leading-relaxed mb-7">
+                <ul class="bg-gradient-to-r from-blue-500 to-transparent">
+                  <li>Japan consists of 6,852 islands. The islands were originally attached to the
+                    eastern coast of
+                    Asia, until
+                    tectonic activity caused them to split off, creating the Sea of Japan around 15 million years ago.
+                  </li>
+                  <li>The Japanese language orders words differently than we do in English.
+                    Instead of ordering
+                    sentences by
+                    subject-verb-object (example: I write words), Japanese uses subject-object-verb (example: I words
+                    write).
+                  </li>
+                  <li>Over a thousand tame sika deer roam the streets of Nara, Japan. Once
+                    considered heavenly
+                    creatures, the
+                    deer are now
+                    classified as a national treasure (though some are being culled for destroying plant life), and can
+                    be seen
+                    bowing to
+                    tourists in exchange for crackers that are sold on site.</li>
+                  <li>From the 12th century to the demise of feudalism in the 19th century, the
+                    samurai were a powerful
+                    warrior
+                    class in
+                    Japan. A samurai essentially had a license to kill, with the authority to strike down any commoner
+                    who
+                    compromised their
+                    honor. Ritual suicide (known as seppuku) was a respected practice for a samurai who brought dishonor
+                    to his
+                    lord.</li>
+                  <li>The bow is an important form of greeting in Japan, and Japanese people work
+                    hard to perfect it.
+                    The depth
+                    of the bow is
+                    significant—lower bows indicate more respect.</li>
+                  <li>The kimono is a traditional Japanese garment worn by both men and women. It
+                    consists of a long
+                    robe-like
+                    dress that is
+                    wrapped around the body, with the left side always covering the right. The obi is the belt that
+                    keeps the
+                    kimono secure.
+                    A single kimono can cost over $10,000.</li>
+                  <li>Geisha, known for their elaborate hairstyles and white makeup, have been
+                    entertaining in Japan
+                    since the
+                    18th century.
+                    The white powder covers most of the geisha’s face and neck, though unpainted spaces creating a W
+                    shape is
+                    usually left
+                    on the neck, which is considered alluring.</li>
+                  <li>Traditional Japanese rooms are tiled with Tatami, or mats made with rice
+                    straw. A mat’s length is
+                    always
+                    twice its
+                    width, and its size is standardized depending on the region. For that reason, room size is often
+                    indicated
+                    by the number
+                    of mats needed to cover the space.</li>
+                  <li>Japan is home to the Japanese macaque, or snow monkey, which lives in colder
+                    climates than other
+                    primates.
+                    The Nagano
+                    Prefecture is known for its macaques, who bathe in hot springs in the winter.</li>
+                  <li>The world’s largest seafood market is the Tsukiji fish market in Tokyo. The
+                    market employs over
+                    60,000
+                    people and opens
+                    at 3:00 am most mornings, with its famous wholesale tuna auctions beginning at five.</li>
+                  <li>Japan will be hosting its second summer Olympics, and its fourth overall, in
+                    Tokyo in 2020. The
+                    motto for
+                    the Games is
+                    “Discover Tokyo,” and the mascot—chosen by Japanese schoolchildren—is a blue and white superhero who
+                    has the
+                    power to
+                    teleport.</li>
+                  <li>Japan is famous for its immaculate gardens, which are meticulously planned
+                    and maintained and are
+                    considered a high art.
+                    “Borrowed scenery” is an important element in garden design; it means the garden’s landscape
+                    includes
+                    elements from
+                    outside its boundaries, such as mountains, to form a backdrop.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
   </main>
   <footer>
-    <nav>
-      <a href="">Terms and Conditions</a>
-      <a href="">Privacy</a>
-      <a href="">Help</a>
-      <a href="">Contact</a>
+    <nav class="bg-white px-8 pt-2 shadow-md">
+      <div class="-mb-px flex justify-center">
+        <a class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8"
+          href="#">
+          Privacy
+        </a>
+        <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
+          href="#">
+          Help
+        </a>
+        <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
+          href="#">
+          Contact
+        </a>
+        <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3"
+          href="#">
+          Term and Conditions
+        </a>
+      </div>
     </nav>
   </footer>
 
