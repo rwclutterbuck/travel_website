@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.h1{
+    font-size: 1.8em;  
+    font-weight: bold;
+    color: red;
+    text-align: center;  
+}
+
+.h2{
+    font-size: 1.2em;  
+    text-align: center;  
+}
 .page {
     background: linear-gradient(90deg, hsl(214, 66%, 78%) 0%, #d190df 179.25%);
 }
@@ -12,3 +23,4 @@
     color: red;
 
 }
+
